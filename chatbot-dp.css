@@ -285,18 +285,18 @@ display: none;
   @media (max-width: 992px){
 
     .item12{
-      height: 54rem;
-      width: 47vw;
+      height: 23rem;
+      width: 88vw;
       position: fixed;
     }
     .bot-m{
-      height: 48.5rem;
+      height: 17.5rem;
     }
     .Welcome {
-      height: 48.5rem;
+      height: 17.5rem;
     }
     .chat {
-      height: 48.5rem;}
+      height: 17.5rem;}
       .message-container {
         padding: 30px;
       font-size: 1rem;}
