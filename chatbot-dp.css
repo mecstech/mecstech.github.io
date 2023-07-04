@@ -51,7 +51,7 @@
     width: 16vw;
     display: none;
     background-color: var(--white);
-    position: absolute;
+    position: fixed;
     border: 1px solid var(--regent-gray);
     border-radius: .3rem;
     overflow: hidden;
