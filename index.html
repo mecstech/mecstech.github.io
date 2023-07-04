@@ -16,6 +16,11 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="chatbot-dp.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
     <link rel="stylesheet" href="assets/css/animated.css">
@@ -369,7 +374,33 @@
       </div>
     </div>
   </div>
+<!---- Chat Bot Code ----->
+      <div class="messages" id="chating" onclick="openchat()"><img src="assets/images/5500_1_04.jpg"></div>
+    <div class="item12" id="chat-screen">
+        <div class="title"><b>Micky Bot</b><i class="fa fa-times"  onclick="closechat()"></i>
+</div>
+<div class="Welcome" id="wel"><div class="bot-m"><img src="assets/images/5500_1_04.jpg"><br>Hi! I'm Micky Bot, what can I assist you with?</div>
 
+</div>
+<div id="chat-scrn" class="chat-scrn">
+        <div class="chat" id="chat">
+              <div class="chat-message receiver">
+                <div class="receiver-image">
+                  <img src="assets/images/5500_1_04.jpg">
+                </div>
+                <div class="message-container recive">
+                  <span class="person-name">Micky</span>
+                  <p>Hi! I'm Micky, Can I Know Who is This</p>
+                  <span class="sent-time">Sent on 1:45 PM</span>
+                </div>
+              </div>
+        </div>
+    </div>
+         <div class="msg" id="cmsg"><input class="input" placeholder="Type your text" required="" type="text" id="msg" onclick="hideDiv()">
+            <span class="input-border"></span><button class="s-msg" onclick="ent()" id="send"><b>Send</b></button> </div>
+        
+    </div>
+  <!--- Chat Bot End --->
   <footer>
     <div class="container">
       <div class="row">
@@ -381,6 +412,8 @@
     </div>
   </footer>
   <!-- Scripts -->
+  <script src="app.js"></script> 
+
   <script src="assets/js/cscript.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
